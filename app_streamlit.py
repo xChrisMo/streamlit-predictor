@@ -1,4 +1,3 @@
-# app_streamlit.py  –  landing page + predictor with company logo
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -8,7 +7,7 @@ st.set_page_config(page_title="Youth Outcome Predictor",
                    page_icon="🧭",
                    layout="wide")
 
-LOGO_PATH = "cp_logo.png"           # <- put your PNG next to this script
+LOGO_PATH = "cp_logo.png"          
 
 # ---------- CSS ----------
 st.markdown(
